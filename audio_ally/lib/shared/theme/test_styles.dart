@@ -68,7 +68,7 @@ class AppTextStyles {
   //   ),
   // );
 
-  static TextStyle heading1 = GoogleFonts.montserrat(
+  static TextStyle heading1 = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s32,
       fontWeight: FontWeight.bold,
@@ -76,7 +76,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle heading2 = GoogleFonts.montserrat(
+  static TextStyle heading2 = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s28,
       fontWeight: FontWeight.bold,
@@ -84,7 +84,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle heading3 = GoogleFonts.montserrat(
+  static TextStyle heading3 = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s24,
       fontWeight: FontWeight.w500,
@@ -92,7 +92,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyXLarge = GoogleFonts.montserrat(
+  static TextStyle bodyXLarge = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s20,
       fontWeight: FontWeight.w500,
@@ -100,7 +100,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyLargeMedium = GoogleFonts.montserrat(
+  static TextStyle bodyLargeMedium = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s18,
       fontWeight: FontWeight.w500,
@@ -108,7 +108,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyLargeRegular = GoogleFonts.montserrat(
+  static TextStyle bodyLargeRegular = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s18,
       fontWeight: FontWeight.w400,
@@ -116,7 +116,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyNomalBold = GoogleFonts.montserrat(
+  static TextStyle bodyNomalBold = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s16,
       fontWeight: FontWeight.bold,
@@ -124,7 +124,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyNomalMedium = GoogleFonts.montserrat(
+  static TextStyle bodyNomalMedium = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s16,
       fontWeight: FontWeight.w500,
@@ -132,7 +132,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyNomalRegular = GoogleFonts.montserrat(
+  static TextStyle bodyNomalRegular = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s16,
       fontWeight: FontWeight.w400,
@@ -140,7 +140,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodySmallBold = GoogleFonts.montserrat(
+  static TextStyle bodySmallBold = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s14,
       fontWeight: FontWeight.bold,
@@ -148,7 +148,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodySmallMedium = GoogleFonts.montserrat(
+  static TextStyle bodySmallMedium = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s14,
       fontWeight: FontWeight.w500,
@@ -156,7 +156,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodySmallRegular = GoogleFonts.montserrat(
+  static TextStyle bodySmallRegular = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s14,
       fontWeight: FontWeight.w400,
@@ -164,7 +164,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyXSmallMedium = GoogleFonts.montserrat(
+  static TextStyle bodyXSmallMedium = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s12,
       fontWeight: FontWeight.w500,
@@ -172,7 +172,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle bodyXSmallRegular = GoogleFonts.montserrat(
+  static TextStyle bodyXSmallRegular = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s12,
       fontWeight: FontWeight.w400,
@@ -180,7 +180,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle textSmall = GoogleFonts.montserrat(
+  static TextStyle textSmall = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s14,
       fontWeight: FontWeight.w500,
@@ -188,7 +188,7 @@ class AppTextStyles {
     ),
   );
 
-  static TextStyle textXSmall = GoogleFonts.montserrat(
+  static TextStyle textXSmall = GoogleFonts.rubik(
     textStyle: TextStyle(
       fontSize: Sz.i.s12,
       fontWeight: FontWeight.w500,

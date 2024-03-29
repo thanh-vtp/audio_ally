@@ -29,14 +29,26 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).colorScheme.background,
-      body: const Center(
-        child: Text(
-          'Splash Screen',
-          style: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.w600,
-            fontSize: 18.0,
-          ),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Text(
+              'Splash Screen',
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w600,
+                fontSize: 18.0,
+              ),
+            ),
+            TextButton(
+                onPressed: () {
+                  print('sss');
+                  navigateTo(LibraryScreen());
+                  // Navigator.push(context,
+                  //     MaterialPageRoute(builder: (context) => LibraryScreen()));
+                },
+                child: Text('sss'))
+          ],
         ),
       ),
     );

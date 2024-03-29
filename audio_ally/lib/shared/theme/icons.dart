@@ -14,5 +14,7 @@ class AppIcons {
   static String quiet = '${prefix}ic_quiet.svg';
   static String search = '${prefix}ic_search.svg';
   static String share = '${prefix}ic_share.svg';
-  static String menu = '${prefix}ic_mennu.svg';
+  static String menu = '${prefix}ic_menu.svg';
+  static String sort = '${prefix}ic_sort.svg';
+  static String equalizer = '${prefix}ic_equalizer.svg';
 }
