@@ -74,4 +74,4 @@ flutter:
 
 flutter_intl:
   enabled: true
-  arb_dir: lib/shared/l10n
+  arb_dir: lib\shared\l10n

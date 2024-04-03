@@ -32,13 +32,13 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
       backgroundColor: AppColors.white,
       appBar: AppBar(
         leading: IconButton(
-          icon: SvgPicture.asset(AppIcons.menu),
+          icon: SvgPicture.asset(AppIcons.back),
           onPressed: () {},
         ),
         actions: [
           IconButton(
             icon: SvgPicture.asset(
-              AppIcons.search,
+              AppIcons.back,
               colorFilter:
                   const ColorFilter.mode(AppColors.white, BlendMode.srcIn),
             ),
@@ -99,7 +99,7 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
             const Spacer(),
             Row(
               children: [
-                SvgPicture.asset(AppIcons.equalizer,
+                SvgPicture.asset(AppIcons.back,
                     colorFilter: ColorFilter.mode(
                         isActive ? AppColors.primary : AppColors.black,
                         BlendMode.srcIn)),
@@ -134,7 +134,7 @@ class _LibraryScreenState extends ConsumerState<LibraryScreen> {
                     style: AppTextStyles.bodyNomalMedium
                         .copyWith(color: AppColors.primary)),
                 Gap(Sz.i.s8),
-                SvgPicture.asset(AppIcons.sort,
+                SvgPicture.asset(AppIcons.back,
                     colorFilter: ColorFilter.mode(
                         isActive ? AppColors.pink : AppColors.primary,
                         BlendMode.srcIn))

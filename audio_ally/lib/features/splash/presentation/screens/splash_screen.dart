@@ -1,3 +1,4 @@
+import 'package:audio_ally/features/albums_music/presentation/screens/album_screen.dart';
 import 'package:audio_ally/screens/library_screen.dart';
 import 'package:audio_ally/shared/util/navigation_utils.dart';
 import 'package:flutter/material.dart';
@@ -20,8 +21,8 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
       // ? const DashboardRoute()
       // : LoginRoute() as PageRouteInfo;
       // ignore: use_build_context_synchronously
-  
-      navigateTo(const LibraryScreen(), clearStack: true);
+
+      navigateTo(const AlbumScreenState(), clearStack: true);
     });
   }
 
@@ -44,7 +45,6 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
                 onPressed: () {
                   // print('LibraryScreeb');
                   // navigateTo(LibraryScreen());
-
                 },
                 child: Text('sss'))
           ],
