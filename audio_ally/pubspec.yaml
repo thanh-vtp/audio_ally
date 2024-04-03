@@ -51,6 +51,8 @@ dependencies:
   gap: ^3.0.1
   freezed: ^2.4.7
   json_annotation: ^4.8.1
+  cloud_firestore: ^4.16.0
+  firebase_core: ^2.28.0
 
 dev_dependencies:
   flutter_test:

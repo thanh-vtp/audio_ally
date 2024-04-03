@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "288181993692",
+    "project_id": "music-f3079",
+    "storage_bucket": "music-f3079.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288181993692:android:44982d0b7ddea31a1db419",
+        "android_client_info": {
+          "package_name": "com.example.audio_ally"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsYsch3RaBPiFH18JTM5TBu4nf1KzZPKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
