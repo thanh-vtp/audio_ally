@@ -13,7 +13,7 @@ class MyApp extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
       title: 'Flutter TDD',
-      theme: AppTheme.lightTheme,
+      // theme: AppTheme.lightTheme,
       // darkTheme: AppTheme.darkTheme,
       // themeMode: themeMode,
       localizationsDelegates:localization,

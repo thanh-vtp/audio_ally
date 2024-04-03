@@ -20,7 +20,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
       // ? const DashboardRoute()
       // : LoginRoute() as PageRouteInfo;
       // ignore: use_build_context_synchronously
-
+  
       navigateTo(const LibraryScreen(), clearStack: true);
     });
   }
@@ -42,10 +42,9 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
             ),
             TextButton(
                 onPressed: () {
-                  print('sss');
-                  navigateTo(LibraryScreen());
-                  // Navigator.push(context,
-                  //     MaterialPageRoute(builder: (context) => LibraryScreen()));
+                  // print('LibraryScreeb');
+                  // navigateTo(LibraryScreen());
+
                 },
                 child: Text('sss'))
           ],

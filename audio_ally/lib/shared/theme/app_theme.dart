@@ -69,21 +69,21 @@ class AppTheme {
   // }
 
   /// Light theme data of the app
-  static ThemeData get lightTheme {
-    return ThemeData(
-      brightness: Brightness.light,
-      primaryColor: AppColors.primary,
-      textTheme: TextThemes.textTheme,
-      primaryTextTheme: TextThemes.primaryTextTheme,
-      colorScheme: const ColorScheme.light(
-        primary: AppColors.primary,
-        secondary: AppColors.accent1,
-        error: AppColors.accent1,
-      ),
-      appBarTheme: const AppBarTheme(
-        elevation: 0,
-        backgroundColor: AppColors.primary,
-      ),
-    );
-  }
+  // static ThemeData get lightTheme {
+  //   return ThemeData(
+  //     brightness: Brightness.light,
+  //     primaryColor: AppColors.primary,
+  //     textTheme: TextThemes.textTheme,
+  //     primaryTextTheme: TextThemes.primaryTextTheme,
+  //     colorScheme: const ColorScheme.light(
+  //       primary: AppColors.primary,
+  //       secondary: AppColors.accent1,
+  //       error: AppColors.accent1,
+  //     ),
+  //     appBarTheme: const AppBarTheme(
+  //       elevation: 0,
+  //       backgroundColor: AppColors.primary,
+  //     ),
+  //   );
+  // }
 }
