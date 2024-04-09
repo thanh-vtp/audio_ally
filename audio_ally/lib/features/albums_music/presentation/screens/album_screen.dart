@@ -5,7 +5,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:gap/gap.dart';
 
 class AlbumScreenState extends StatefulWidget {
   const AlbumScreenState({super.key});
@@ -20,34 +19,53 @@ class __AlbumScreenStateState extends State<AlbumScreenState> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppbarApp(lable: S.current.albums),
-        body: Padding(
-          padding:
-              EdgeInsets.symmetric(horizontal: Sz.i.s90, vertical: Sz.i.s30),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Image.network(
-                  'https://buffer.com/library/content/images/size/w1200/2023/10/free-images.jpg'),
-            ],
-          ),
+        body: Stack(
+          children: <Widget>[
+            Container(
+              decoration: const BoxDecoration(
+                // image: DecorationImage(
+                //   image: AssetImage('assets/images/Albums.png'),
+                //   fit: BoxFit.fill,
+                // ),
+                color: Color(0xffffffff),
+              ),
+            ),
+            Positioned(
+              top: Sz.i.s10,
+              left: Sz.i.s10,
+              right: Sz.i.s10,
+              child: InkWell(
+                onTap: () {},
+                child: Ink.image(
+                  image: AssetImage('assets/images/avatar.png'),
+                  width: 100,
+                  height: 100,
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );
   }
 
-  AppBar AppbarApp({required String lable}) {
-    return AppBar(
-      leading: IconButton(
-        onPressed: () {
-          // Navigator.pop(context);
-        },
-        icon: SvgPicture.asset(AppIcons.back),
+  PreferredSizeWidget AppbarApp({required String lable}) {
+    return PreferredSize(
+      preferredSize: Size.fromHeight(kToolbarHeight),
+      child: AppBar(
+        leading: IconButton(
+          onPressed: () {
+            // Navigator.pop(context);
+          },
+          icon: SvgPicture.asset(AppIcons.back),
+        ),
+        title: Text(lable),
+        centerTitle: true,
+        actions: [
+          IconButton(onPressed: () {}, icon: SvgPicture.asset(AppIcons.more))
+        ],
       ),
-      title: Text(lable),
-      centerTitle: true,
-      actions: [
-        IconButton(onPressed: () {}, icon: SvgPicture.asset(AppIcons.more))
-      ],
     );
   }
 }

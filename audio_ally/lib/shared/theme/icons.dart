@@ -11,4 +11,5 @@ class AppIcons {
   static String profile = '${prefix}ic_profile.svg';
   static String setting = '${prefix}ic_setting.svg';
   static String triangle = '${prefix}ic_triangle.svg';
+  static String avatar = '${prefix}ic_avatar.svg';
 }
